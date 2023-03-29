@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html langu= "Fr-Fr">
+    
+<head>
+   <title> acttab1</title> 
+   <meta charset="utf8"/>
+</head>
+
+<body>
+ 
+    <audio controls>
+            <source src="https://universal-soundbank.com/sounds/7974.mp3"> 
+            <source src="https://universal-soundbank.com/sounds/1896.mp3"> 
+    </audio>
+    <br>
+    <video controls width="500">
+        <source name="le bois" src="https://download-video.akamaized.net/2/playback/bf50fce3-4e9b-46ef-b88f-751000bdbee4/250d6cbd-f7e19caf?__token__=st=1666728853~exp=1666772637~acl=%2F2%2Fplayback%2Fbf50fce3-4e9b-46ef-b88f-751000bdbee4%2F250d6cbd-f7e19caf%2A~hmac=65603c0d69148214f789558a46553144382fba077b662d6b71588ec8544bfb13&r=dXMtd2VzdDE%3D"/>
+    </video>
+
+</body>
+</html>
+
+____________________________________________________________________________________________________________________________________________
+
+<!DOCTYPE html>
+<html langu= "Fr-Fr">
+    
+<head>
+   <title> acttab1</title> 
+   <meta charset="utf8"/>
+</head>
+
+<body>
+    <span style="color:red ; background-color:black ; font-style: italic; font-style: 24pt ; font-weight: bold ; text-decoration: under line "> salut! </span>
+</body>
+</html>
+
+____________________________________________________________________________________________________________________________________________
+
+<!DOCTYPE html>
+<html langu= "Fr-Fr">
+    
+<head>
+   <title> acttab1</title> 
+   <meta charset="utf8"/>
+    <style>
+        span{
+             color:red ; background-color:black ; font-style: italic; font-style: 24pt ; font-weight: bold ; text-decoration: under line "
+            }
+    </style>
+</head>
+
+<body>
+      <span>salut!</span>
+      <span style="color:blue ; background-color:white" >salut!encore!</span>
+      
+</body>
+</html>

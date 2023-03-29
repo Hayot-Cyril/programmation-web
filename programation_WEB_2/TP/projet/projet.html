@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Page d'authentification</title>
+  <link rel="stylesheet" type="text/css" href="projet.css">
+</head>
+<body>
+<div id="WAl"><img src="img/Banniere.png"></div>
+<div id="authentification" style="display:block;">
+  
+  <h2>Créer un compte</h2>
+  <form>
+    <label for="pseudo">Pseudo :</label>
+      <input type="text" id="pseudo" name="pseudo">
+    <label for="email">Email :</label>
+      <input type="email" id="email" name="email">
+    <button type="button" onclick="creerCompte()">Créer</button>
+  </form>
+  <p>vous avez deja un compte?</p>
+  <button type="button" onclick="connexion()">Connexion</button>
+</div>
+
+<div id="connexion" style="display:none;">
+  <h2>Connexion</h2>
+  <form>
+    <label for="identifiant">Pseudo :</label>
+    <input type="text" id="identifiant" name="identifiant">
+    <br><br>
+    <label for="cle">Clé d'activation :</label>
+    <input type="text" id="cle" name="cle">
+    <br><br>
+    <button type="button" onclick="activerCompte()">Connexion</button>
+	
+  </form>
+</div>
+
+<div id="pageAccueil" style="display:none;">
+  <h2>Bienvenue sur votre page d'accueil</h2>
+  
+<p id="identite">Utilisateur: </p>
+  <p>Identifiant: <span id="Identifiant"></span></p>
+  <p> <span id="mail">Email: </span></p>
+  <br>
+   <button onclick="afficherListeContacts()">Conversations</button>
+  <button onclick="afficherAjouterAmi()">Ajouter un amis</button>
+
+  
+</div>
+<div id="listeContacts" style="display:none;">
+<article>
+    <div>
+      <h3> &#128217 Liste des contacts</h3>
+      <div id="scroller">
+        <div></div>
+      </div>
+      <br>
+      <button id="bB">Accueil</button>
+    </div>
+
+    <div id="conversation" style="display:block;">
+    <h3>&#128236 Discution</h3>
+      <div id="scroller2">
+      </div>
+      <input type="text" id="message" name="message" >
+      <button onclick="envoyermessage()">Envoyer</button>
+      <button onclick="actualiser()">Actualiser</button>
+      <button onclick="supprimer()">Supprimer Contact</button>
+    </div> 
+</article>
+</div>
+    
+
+
+<div id="ajouterAmi" style="display:none;">
+  <input type="email" id="Ami">
+  <button id="boutonAjouterAmi" onclick="AjouterAmi(document.getElementById('Ami'),)">Ajouter l'ami</button>
+
+  <button id="bB2">Retour</button>
+</div>
+
+
+
+</body>
+<script src="projet.js"></script>
+</html>
+
+

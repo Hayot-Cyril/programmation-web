@@ -1,0 +1,4 @@
+<script>
+  document.querySelector("body").style="background-color:orange";
+                                .setAttribute("bgcolor";"orange");
+</script>

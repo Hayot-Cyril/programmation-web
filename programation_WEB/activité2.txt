@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html langu= "Fr-Fr">
+    
+<head>
+   <title> acttab1</title> 
+   <meta charset="utf8"/>
+</head>
+<body>
+    <font color="black">
+	<table border="2" width="350px" height="120px" >
+
+	    <tr> 
+	        <td align="center" >N</td> 
+	        <td align="center" >N</td> 
+	        <td colspan="4" rowspan="2"> C</td> 
+	        <td align="center" >N</td>
+	        <td align="center" >N</td> 
+	    </tr>
+        <tr> 
+            <td align="center">N</td> 
+            <td align="center">N</td> 
+            <td align="center">N</td> 
+            <td align="center">N</td>  
+        </tr>
+	    
+	    
+	    
+	</table>
+	</font>
+
+</body>
+
+
+
+
+</html>

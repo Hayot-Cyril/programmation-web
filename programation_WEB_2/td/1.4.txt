@@ -1,0 +1,11 @@
+<script>
+document.getElementById("toto").
+	innerHTML="contenu";
+
+document.querySelector("#toto").
+	innerHTML="contenu";
+
+document.querySelectorAll("#toto")[0].
+	innerHTML="contenu";
+
+</script>
